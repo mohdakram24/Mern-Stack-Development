@@ -1,0 +1,16 @@
+h1{
+    color: blueviolet;
+}
+body{
+    /* background-color: beige; */
+    font-size: 30px;
+}
+#myid:hover{
+    color: brown;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+a:hover{
+    color: antiquewhite;
+    text-underline-position: none;
+}

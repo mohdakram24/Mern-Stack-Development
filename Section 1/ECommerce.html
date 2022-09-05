@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css" rel="stylesheet" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"></script>
+  <style>
+    .search {
+      /* width: 100%; */
+      background-color: white;
+    }
+
+    .mybtn {
+      border-radius: 0 10px 10px 0px;
+    }
+
+    .myheader {
+      width: 100%;
+      backdrop-filter: blur(100px);
+      background-image: linear-gradient(to right, rgba(131, 122, 122, 0.148), rgba(0, 0, 255, 0.062)), url(https://smartcookie-design.co.uk/img/posts/25-watch-brands-for-eCommerce-Inspirations-banner2.jpg);
+
+      background-size: cover;
+      padding: 150px;
+    }
+
+    p:hover {
+      color: blue;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .thumb {
+      /* background: url(https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/t/i/tissot-t-classic-t063-617-36-037-00-large.jpg); */
+      height: 320px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* body {
+      background: url(https://wallpaperaccess.com/full/812824.jpg);
+      background-size: cover;
+      backdrop-filter: blur(15px);
+    } */
+
+    /* .mydiv2 button{
+      margin-left: 2px;
+      font-family: sans-serif;
+      border: 2px solid black;
+      border-radius: none;
+
+    }
+    .mydiv2 button:hover{
+      color: blue;
+    } */
+    .mynav{
+      margin-left: 2px;
+    }
+  </style>
+
+
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light mynav">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Watch Straps</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gift Sets</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- <div style="display: flex;background: linear-gradient(to right,rgb(146, 216, 188),rgba(51, 201, 239, 0.658));" class="mydiv2">
+    <button class="btn">HOME</button>
+    <button class="btn">CATEGORIES</button>
+    <button class="btn">WATCH STRAP</button>
+    <button class="btn">SMARTWATCH CASE</button>
+    <button class="btn">GIFT SETS</button>
+  </div> -->
+  <header class="myheader">
+    <div class="container">
+      <p class="display-4 text-black text-left">World</p>
+      <p class="display-4 text-black text-left">Of</p>
+      <p class="display-4 text-black text-left">Watches</p>
+      <div class="input-group">
+        <!-- <div class="form-outline search">
+          <input type="search" id="form1" class="form-control" />
+          <label class="form-label" for="form1">Search</label>
+        </div>
+        <button type="button" class="btn btn-primary">
+          <i class="fas fa-search"></i>
+        </button>
+      </div> -->
+    </div>
+  </header>
+  
+  <div class="container p-3">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="thumb"
+            style="background-image: url(https://www.danielwellington.com/product-images/cl40-stmawes-s_1-DfFkr6fv.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF);">
+          </div>
+          <div class="card-body">
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">DANIEL WELLINGTON</p>
+            <h2><i class="fas fa-rupee-sign"></i>10,899</h2>
+            <div style="display: flex;">
+              <button class="btn btn-primary mt-4 w-50 float-bottom"><i class="fa fa-shopping-cart"
+                  aria-hidden="true"></i>&nbsp; Add To Cart</button>
+              <button class="btn btn-primary mt-4 w-50 h-10 float-right" style="margin-left: 10px;"><i
+                  class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now</button>
+            </div><br>
+            <ul>
+              <li>Free delivery</li>
+              <li>Cash on delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="thumb"
+            style="background-image: url(https://www.danielwellington.com/product-images/dw00100228_petite_du-v86bfv4_.png?ecom2=true&format=jpg&canvas=1:1&width=960&quality=80&bg-color=FFFFFF);">
+          </div>
+          <div class="card-body">
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">DANIEL WELLINGTON</p>
+            <h2><i class="fas fa-rupee-sign    "></i>11,999</h2>
+            <div style="display: flex;">
+              <button class="btn btn-primary mt-4 w-50 float-bottom"><i class="fa fa-shopping-cart"
+                  aria-hidden="true"></i>&nbsp; Add To Cart</button>
+              <button class="btn btn-primary mt-4 w-50 h-10 float-right" style="margin-left: 10px;"><i
+                  class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now</button>
+            </div><br>
+            <ul>
+              <li>Free delivery</li>
+              <li>Cash on delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="thumb"
+            style="background-image: url(https://www.danielwellington.com/product-images/cl40-cambridge-rg_1-ZWRiHzRr.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF);">
+          </div>
+          <div class="card-body">
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">DANIEL WELLINGTON</p>
+            <h2><i class="fas fa-rupee-sign    "></i>19,799</h2>
+            <div style="display: flex;">
+              <button class="btn btn-primary mt-4 w-50 float-bottom"><i class="fa fa-shopping-cart"
+                  aria-hidden="true"></i>&nbsp; Add To Cart</button>
+              <button class="btn btn-primary mt-4 w-50 h-10 float-right" style="margin-left: 10px;"><i
+                  class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now</button>
+            </div><br>
+            <ul>
+              <li>Free delivery</li>
+              <li>Cash on delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="thumb"
+            style="background-image: url(https://fossil.scene7.com/is/image/FossilPartners/FS5849_main?$sfcc_fos_medium$);">
+          </div>
+          <div class="card-body">
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">FOSSIL</p>
+            <h2><i class="fas fa-rupee-sign    "></i>19,799</h2>
+            <div style="display: flex;">
+              <button class="btn btn-primary mt-4 w-50 float-bottom"><i class="fa fa-shopping-cart"
+                  aria-hidden="true"></i>&nbsp; Add To Cart</button>
+              <button class="btn btn-primary mt-4 w-50 h-10 float-right" style="margin-left: 10px;"><i
+                  class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now</button>
+            </div><br>
+            <ul>
+              <li>Free delivery</li>
+              <li>Cash on delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container p-3">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="thumb"
+            style="background-image: url(https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-960,/pub/media/catalog/product/t/i/titan-8905151358395_1.jpg?rnd=20200526195200);">
+          </div>
+          <div class="card-body">
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">TITAN</p>
+            <h2><i class="fas fa-rupee-sign    "></i>20,899</h2>
+            <div style="display: flex;">
+              <button class="btn btn-primary mt-4 w-50 float-bottom"><i class="fa fa-shopping-cart"
+                  aria-hidden="true"></i>&nbsp; Add To Cart</button>
+              <button class="btn btn-primary mt-4 w-50 h-10 float-right" style="margin-left: 10px;"><i
+                  class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now</button>
+            </div><br>
+            <ul>
+              <li>Free delivery</li>
+              <li>Cash on delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="thumb"
+            style="background-image: url(https://staticimg.titan.co.in/Helios/Catalog/KC50645001MN_1.jpg?pView=pdp);">
+          </div>
+          <div class="card-body">
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">KENNETH COLE</p>
+            <h2><i class="fas fa-rupee-sign    "></i>10,899</h2>
+            <div style="display: flex;">
+              <button class="btn btn-primary mt-4 w-50 float-bottom"><i class="fa fa-shopping-cart"
+                  aria-hidden="true"></i>&nbsp; Add To Cart</button>
+              <button class="btn btn-primary mt-4 w-50 h-10 float-right" style="margin-left: 10px;"><i
+                  class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now</button>
+            </div><br>
+            <ul>
+              <li>Free delivery</li>
+              <li>Cash on delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="thumb"
+            style="background-image: url(https://staticimg.titan.co.in/Helios/Catalog/TH1710393_1.jpg?pView=pdp);">
+          </div>
+          <div class="card-body">
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">TOMMY HILFIGER</p>
+            <h2><i class="fas fa-rupee-sign    "></i>14,899</h2>
+            <div style="display: flex;">
+              <button class="btn btn-primary mt-4 w-50 float-bottom"><i class="fa fa-shopping-cart"
+                  aria-hidden="true"></i>&nbsp; Add To Cart</button>
+              <button class="btn btn-primary mt-4 w-50 h-10 float-right" style="margin-left: 10px;"><i
+                  class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now</button>
+            </div><br>
+            <ul>
+              <li>Free delivery</li>
+              <li>Cash on delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="thumb"
+            style="background-image: url(https://www.danielwellington.com/product-images/dw_classic_petite-28-CuA_PSCb.png?ecom2=true&format=jpg&canvas=1:1&width=960&quality=80&bg-color=FFFFFF);">
+          </div>
+          <div class="card-body">
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">DANIEL WELLINGTON</p>
+            <h2><i class="fas fa-rupee-sign    "></i>10,899</h2>
+            <div style="display: flex;">
+              <button class="btn btn-primary mt-4 w-50 float-bottom"><i class="fa fa-shopping-cart"
+                  aria-hidden="true"></i>&nbsp; Add To Cart</button>
+              <button class="btn btn-primary mt-4 w-50 h-10 float-right" style="margin-left: 10px;"><i
+                  class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now</button>
+            </div><br>
+            <ul>
+              <li>Free delivery</li>
+              <li>Cash on delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

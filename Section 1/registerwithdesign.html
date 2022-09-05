@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Montaga:regular" rel="stylesheet" />
+
+    <style>
+        body{
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            margin: 0px;
+            backdrop-filter: blur(10px);
+            background: linear-gradient(to right,rgba(255, 0, 0, 0.427) ,rgba(0, 0, 255, 0.249)),url(https://filmfare.wwmindia.com/content/2022/jul/shahrukh-khan-still-from-movie-pathan.jpg);
+            /* background-image: url(https://filmfare.wwmindia.com/content/2022/jul/shahrukh-khan-still-from-movie-pathan.jpg); */
+            background-size: cover;
+        }
+        .mycard h3,label{
+            color: white;
+            /* sYNTAX:x-offset y-offset blur color */
+            text-shadow: 2px 2px 4px black;
+            font-size: 1.2em;
+        }
+        .mycard{
+            background-color: #a1c4ca;
+            /* short hand property */
+            border: 2px solid grey;
+            width: 30%;
+            padding: 40px;
+            /* margin: 300px auto; */
+            /* Syntax:x-offset;y-offset;blur;size ;color*/
+            box-shadow: 4px 4px 3px -2px black , 4px 4px 3px -2px red;
+            /* box-sizing: border-box; */
+            border-radius: 5px;
+            /* backdrop-filter: blur(100px); */
+        }
+        .myinput{
+            width: 100%;
+            padding: 10px;
+            /* box-sizing: content-box; */
+            border-radius: 5px;
+            border: none;
+        }
+        .myinput:focus{
+            background: rebeccapurple;
+        }
+        .mybtn{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.2cm;
+            background: beige;
+        }
+        .form-title{
+            font-family: Montaga;
+            font-size: 10px important;
+            text-align: center;
+            /* color: white; */
+        }
+        *{
+            font-family: Montaga;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="mycard">
+        <h1 class="form-title">Register here to continue</h1>
+        <hr />
+        <label >First Name</label>
+        <input class="myinput">
+        <br>
+        <br>
+        <label>Middle Name</label>
+        <input class="myinput">
+        <br>
+        <br>
+        <label >Last Name</label>
+        <input class="myinput">
+        <br>
+        <br>
+
+        <label >Father's Name</label>
+        <input class="myinput" value="Full-Name">
+        <br>
+        <br>
+        <label>Course</label>
+        <select class="myinput">
+            <option>BTECH</option>
+            <option>MTECH</option>
+            <option>BBA</option>
+            <option>MBA</option>
+            <option>BCA</option>
+            <option>MCA</option>
+
+
+        </select>
+        <br>
+        <br>
+        <label>Department</label>
+        <input list="dept">
+        <datalist id="dept">
+            <option>Computer science</option>
+            <option>Arts</option>
+            <option>Civil</option>
+            <option>EN</option>
+            <option>Electrical</option>
+            <option>Electronics and Communication</option>
+            <option>Mechanical</option>
+        </datalist>
+        <br>
+        <br>
+
+        <label>Gender</label>
+        <input type="radio" name="male">Male
+        <input type="radio" name="male">Female
+        <input type="radio" name="male">Other
+        <br>
+        <br>
+
+        <label>Contact no.</label>
+        <input type="number"><br><br>
+
+        <label>Password</label>
+        <input type="password" class="myinput"><br><br>
+
+        <label>Retype Password</label>
+        <input type="password" class="myinput">
+        <br><br>
+        <button class="mybtn" >Submit</button>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page For College</title>
+    <style>
+        body{
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            margin: 0px;
+        }
+        .mycard{
+            background-color: antiquewhite;
+            /* short hand property */
+            border: 2px solid grey;
+            width: 40%;
+            padding: 40px;
+            /* margin: 300px auto; */
+            /* Syntax:x-offset;y-offset;blur;size ;color*/
+            box-shadow: 4px 4px 3px -2px black , -4px +4px -3px +2px red;
+            /* box-sizing: border-box; */
+            border-radius: 5px;
+        }
+        .myinput{
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+        .mybtn{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.2cm;
+            box-sizing: border-box;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mycard">
+        <h3>Register here to continue</h3>
+        <hr />
+        <label >First Name</label>
+        <input class="myinput">
+        <br>
+        <br>
+        <label>Middle Name</label>
+        <input class="myinput">
+        <br>
+        <br>
+        <label >Last Name</label>
+        <input class="myinput">
+        <br>
+        <br>
+
+        <label >Father's Name</label>
+        <input class="myinput" value="Full-Name">
+        <br>
+        <br>
+        <label>Course</label>
+        <select class="myinput">
+            <option>BTECH</option>
+            <option>MTECH</option>
+            <option>BBA</option>
+            <option>MBA</option>
+            <option>BCA</option>
+            <option>MCA</option>
+
+
+        </select>
+        <br>
+        <br>
+        <label>Department</label>
+        <input list="dept">
+        <datalist id="dept">
+            <option>Computer science</option>
+            <option>Arts</option>
+            <option>Civil</option>
+            <option>EN</option>
+            <option>Electrical</option>
+            <option>Electronics and Communication</option>
+            <option>Mechanical</option>
+        </datalist>
+        <br>
+        <br>
+
+        <label>Gender</label>
+        <input type="radio" name="male">Male
+        <input type="radio" name="male">Female
+        <input type="radio" name="male">Other
+        <br>
+        <br>
+
+        <label>Contact no.</label>
+        <input type="number"><br><br>
+
+        <label>Password</label>
+        <input type="password" class="myinput"><br><br>
+
+        <label>Retype Password</label>
+        <input type="password" class="myinput">
+        <br><br>
+        <button class="mybtn">Submit</button>
+    </div>
+
+</body>
+
+</html>

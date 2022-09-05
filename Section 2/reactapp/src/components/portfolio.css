@@ -1,0 +1,23 @@
+.myP{
+    font-family: cursive;
+}
+
+
+
+.mycol2P{
+    padding: 6px;
+    border: black solid 1px;
+    border-radius: 4px;
+    float: left;
+    margin-left: 8px;
+    font-weight: bold;
+}
+.connect{
+    font-family: cursive;
+}
+.margin1{
+    margin-left: 10px;
+}
+.card1{
+    background-size: cover;
+}

@@ -1,0 +1,15 @@
+.myfont{
+    font-style: italic;
+}
+.mylogin{
+    /* background-color: red; */
+    padding-left: 100px;
+    justify-content: center;
+}
+.mylinear{
+    /* justify-content: center; */
+    background: linear-gradient(to right,rgb(221, 79, 79),rgb(89, 89, 209));
+}
+.active{
+    font-weight: bold;
+}

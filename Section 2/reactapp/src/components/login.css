@@ -1,0 +1,45 @@
+.mycard {
+    /* display: flex; */
+    /* margin-left: 10%; */
+    width: 30%;
+    padding: 5px;
+    justify-content: center;
+    
+    
+    /* background-color: beige; */
+    /* border: 2px solid royalblue; */
+}
+.mydiv2{
+    justify-content: center;
+    background:linear-gradient(to right, rgba(231, 41, 41, 0.155),rgba(64, 64, 220, 0.247));
+    background-size: cover;
+}
+.myinput{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+textarea{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+label{
+    font-weight: bold;
+    color: black;
+}
+.mybtn{
+    /* width: 100%; */
+    margin: 6px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    /* display: flex; */
+    font-weight: bold;
+    /* font-size: 1.2cm; */
+    /* background: beige; */
+}
+.mydiv{
+    display: flex;
+}

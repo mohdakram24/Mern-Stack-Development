@@ -1,0 +1,12 @@
+.task{
+    padding: 10px 20px;
+    border: 2px solid red;
+    background-color: lavender;
+    border-radius: 4px;
+}
+.task p{
+    margin: 0;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
